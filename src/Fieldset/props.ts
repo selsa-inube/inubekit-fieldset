@@ -1,11 +1,5 @@
-import { typography } from "./typography";
-
-type TypographyType = keyof typeof typography;
-
-const type = Object.keys(typography);
-
-export const sizes = ["large", "medium", "small"] as const;
-export type Size = (typeof sizes)[number];
+export const spacings = ["compact", "wide"] as const;
+export type Spacing = (typeof spacings)[number];
 
 const parameters = {
   docs: {
@@ -17,7 +11,7 @@ const parameters = {
 };
 
 const props = {
-  title: {
+  legend: {
     description:
       "A string that represents the title or heading for the fieldset component.",
   },
@@ -26,17 +20,12 @@ const props = {
     description:
       "A prop that expects React nodes as its value, used to render the content inside the fieldset.",
   },
-  type: {
+
+  spacing: {
     control: "select",
-    options: type,
-    description: "Controls the type of the legend",
-  },
-  size: {
-    control: "select",
-    options: sizes,
-    description: "Controls the size of the legend",
+    options: spacings,
+    description: "Controls the spacing of the legend",
   },
 };
 
 export { props, parameters };
-export type { TypographyType };
