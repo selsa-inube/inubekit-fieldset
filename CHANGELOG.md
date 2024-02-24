@@ -1,3 +1,19 @@
+# v0.1.0 (Fri Feb 23 2024)
+
+#### 🚀 Enhancement
+
+- inubekit-fieldset: Create component `<Fieldset/>` [#1](https://github.com/selsa-inube/inubekit-fieldset/pull/1) ([@cmarin001](https://github.com/cmarin001))
+
+#### ⚠️ Pushed to `main`
+
+- Initial commit ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.0.1 (Wed Jan 17 2024)
 
 #### ⚠️ Pushed to `main`
