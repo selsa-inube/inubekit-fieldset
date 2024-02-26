@@ -26,10 +26,13 @@ This readme contains the details of usage of the starter. Once you create a new 
 
 ### Publishing
 
-Follow these steps to publish and release a new version of your package. Also check that you're an admin in the repository (validate with your team leader).
+Follow these steps to publish and release a new version of your package.
+
+Check that you're an admin in the repository (validate with your team leader) and **execute these scripts in a release branch**.
 
 1. `npm run changelog`: this command will create a changelog for you, including in the document the changes that the current release will publish in the new version of the package and what should be the version number of the release. The number is calculated using the labels of all the PRs that are included in this new version (see the Pull Requests details above).
 2. `npm version <new-version>`: this command creates the new version (tag), deletes the /dist folder in your project and executes the build of the project and its files are stored in a new /dist folder.
-3. `npm run release`: this command executes a git push with the new version tag included and creates a new release in Github. **This step requires that you have your `GH_TOKEN` working**.
-4. `npm login`: you must be logged in with npm to continue the process.
-5. `npm publish`: with the new build already in /dist, you can now execute this command and the new package version will be published in npm. **This command requires tat you have you `NPM_TOKEN` working.** _Note_: if this first time you are publishing you should add `--access=public` flag to the command
+3. `git push -u origin <branch>`: this command pushes the commits of changelog and package.json with the new version to github.
+4. `npm run release`: this command executes a git push with the new version tag included and creates a new release in Github. **This step requires that you have your `GH_TOKEN` working**.
+5. `npm login`: you must be logged in with npm to continue the process.
+6. `npm publish`: with the new build already in /dist, you can now execute this command and the new package version will be published in npm. **This command requires tat you have you `NPM_TOKEN` working.** _Note_: if this first time you are publishing you should add `--access=public` flag to the command
