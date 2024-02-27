@@ -1,3 +1,18 @@
+# v0.2.1 (Tue Feb 27 2024)
+
+#### 🐛 Bug Fix
+
+- Set the build to dist/, we are including the react runtime [#6](https://github.com/selsa-inube/inubekit-fieldset/pull/6) ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+- docs: update README [#5](https://github.com/selsa-inube/inubekit-fieldset/pull/5) ([@wfercanas](https://github.com/wfercanas))
+- Fc/release [#4](https://github.com/selsa-inube/inubekit-fieldset/pull/4) ([@wfercanas](https://github.com/wfercanas))
+
+#### Authors: 2
+
+- Fernando Cañas ([@wfercanas](https://github.com/wfercanas))
+- Januar Asprilla  ([@JanuarAsprilla](https://github.com/JanuarAsprilla))
+
+---
+
 # v0.2.0 (Mon Feb 26 2024)
 
 #### 🚀 Enhancement
