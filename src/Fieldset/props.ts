@@ -1,5 +1,5 @@
-export const spacings = ["compact", "wide"] as const;
-export type Spacing = (typeof spacings)[number];
+const spacings = ["compact", "wide"] as const;
+type IFieldsetSpacing = (typeof spacings)[number];
 
 const parameters = {
   docs: {
@@ -28,4 +28,5 @@ const props = {
   },
 };
 
-export { props, parameters };
+export { props, parameters, spacings };
+export type { IFieldsetSpacing };
