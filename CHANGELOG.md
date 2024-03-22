@@ -1,3 +1,23 @@
+# v0.3.0 (Fri Mar 22 2024)
+
+#### 🚀 Enhancement
+
+- Adjust and export interfaces `<Fieldset/>` [#9](https://github.com/selsa-inube/inubekit-fieldset/pull/9) ([@cmarin001](https://github.com/cmarin001))
+
+#### 📝 Documentation
+
+- Publish new version 0.2.1 [#7](https://github.com/selsa-inube/inubekit-fieldset/pull/7) ([@cmarin001](https://github.com/cmarin001))
+
+#### 🔩 Dependency Updates
+
+- Update inubekit/fieldset to storybook v8 [#8](https://github.com/selsa-inube/inubekit-fieldset/pull/8) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.2.1 (Tue Feb 27 2024)
 
 #### 🐛 Bug Fix
