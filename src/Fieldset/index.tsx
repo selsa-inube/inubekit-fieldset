@@ -1,10 +1,10 @@
 import { StyledFieldset, StyledLegend } from "./styles";
-import { Spacing } from "./props";
+import { IFieldsetSpacing } from "./props";
 
 interface IFieldset {
   legend: string;
   children: React.ReactNode;
-  spacing?: Spacing;
+  spacing?: IFieldsetSpacing;
 }
 
 function Fieldset(props: IFieldset) {

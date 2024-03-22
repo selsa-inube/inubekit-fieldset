@@ -12,7 +12,7 @@ const story = {
   },
 };
 
-export const Default = (args: IFieldset) => (
+const Default = (args: IFieldset) => (
   <Fieldset {...args}>
     <StyledChildren />
   </Fieldset>
@@ -23,4 +23,5 @@ Default.args = {
   spacing: "wide",
 };
 
+export { Default };
 export default story;
