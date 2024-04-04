@@ -1,3 +1,19 @@
+# v0.3.1 (Thu Apr 04 2024)
+
+#### 🐛 Bug Fix
+
+- Add auto publish [#11](https://github.com/selsa-inube/inubekit-fieldset/pull/11) ([@cmarin001](https://github.com/cmarin001))
+
+#### 📝 Documentation
+
+- Publish new version 0.3.0 [#10](https://github.com/selsa-inube/inubekit-fieldset/pull/10) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.3.0 (Fri Mar 22 2024)
 
 #### 🚀 Enhancement
