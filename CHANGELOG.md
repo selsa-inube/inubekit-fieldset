@@ -1,3 +1,15 @@
+# v0.4.0 (Tue Apr 30 2024)
+
+#### 🚀 Enhancement
+
+- Update workflow in order to avoid merges with failed builds [#12](https://github.com/selsa-inube/inubekit-fieldset/pull/12) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.3.1 (Thu Apr 04 2024)
 
 #### 🐛 Bug Fix
