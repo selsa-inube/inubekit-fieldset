@@ -4,7 +4,7 @@ import { inube } from "@inubekit/foundations";
 
 const StyledChildren = styled.div`
   width: 100%;
-  height: 118px;
+  height: 150px;
   border-radius: 8px;
   border-width: 0px;
   border-style: solid;
