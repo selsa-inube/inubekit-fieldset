@@ -1,5 +1,6 @@
 import { StyledFieldset, StyledLegend } from "./styles";
 import { IFieldsetSpacing } from "./props";
+import { Stack } from "@inubekit/stack";
 
 interface IFieldset {
   legend: string;
@@ -13,7 +14,13 @@ function Fieldset(props: IFieldset) {
   return (
     <StyledFieldset $spacing={spacing}>
       <StyledLegend>{legend}</StyledLegend>
-      {children}
+      <Stack
+        height="100%"
+        width="100%"
+        padding={spacing === "wide" ? "24px 20px" : "16px 12px"}
+      >
+        {children}
+      </Stack>
     </StyledFieldset>
   );
 }

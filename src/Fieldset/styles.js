@@ -9,14 +9,10 @@ const StyledFieldset = styled.fieldset`
   border-style: solid;
   border-color: ${({ theme }) =>
     theme?.fieldset?.border?.color || inube.fieldset.border.color};
-
-  padding: ${({ $spacing }) => {
-    if ($spacing === "wide") return "24px 20px";
-    return "16px 12px";
-  }};
-
+  padding: 0;
   > *:not(:first-child) {
     margin-top: -8px;
+    min-height: 150px;
   }
 `;
 
@@ -28,6 +24,7 @@ const StyledLegend = styled.legend`
   font-weight: 500;
   color: ${({ theme }) =>
     theme?.fieldset?.legend?.color || inube.fieldset.legend.color};
+  margin-left: 24px;
 `;
 
 export { StyledFieldset, StyledLegend };
