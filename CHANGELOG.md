@@ -1,3 +1,16 @@
+# v0.6.0 (Fri Jun 28 2024)
+
+#### 🚀 Enhancement
+
+- remove package-lock.json [#15](https://github.com/selsa-inube/inubekit-fieldset/pull/15) ([@cmarin001](https://github.com/cmarin001))
+- Update Project Dependencies [#14](https://github.com/selsa-inube/inubekit-fieldset/pull/14) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.5.0 (Wed Jun 05 2024)
 
 #### 🚀 Enhancement
