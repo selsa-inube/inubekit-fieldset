@@ -1,3 +1,15 @@
+# v0.8.0 (Wed Jul 10 2024)
+
+#### 🚀 Enhancement
+
+- Update foundations dependencies [#17](https://github.com/selsa-inube/inubekit-fieldset/pull/17) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.7.0 (Tue Jul 09 2024)
 
 #### 🚀 Enhancement
