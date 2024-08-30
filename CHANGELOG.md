@@ -1,3 +1,15 @@
+# v0.19.1 (Fri Aug 30 2024)
+
+#### ⚠️ Pushed to `main`
+
+- fix: adjust padding be aplied only to legend ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.19.0 (Fri Aug 30 2024)
 
 #### 🚀 Enhancement
