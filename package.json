@@ -41,7 +41,8 @@
   },
   "dependencies": {
     "@inubekit/foundations": "^5.10.0",
-    "@inubekit/stack": "^3.5.0"
+    "@inubekit/stack": "^3.5.0",
+    "@inubekit/text": "^2.13.0"
   },
   "peerDependencies": {
     "react": "^18.2.0",
