@@ -9,7 +9,10 @@ const StyledFieldset = styled.fieldset`
   border-style: solid;
   border-color: ${({ theme }) =>
     theme?.fieldset?.border?.color || inube.fieldset.border.color};
-  padding-left: 24px;
+  & legend {
+    padding-left: 4px;
+  }
+
   > *:not(:first-child) {
     margin-top: -8px;
     min-height: 150px;

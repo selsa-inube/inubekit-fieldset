@@ -12,6 +12,7 @@ const StyledChildren = styled.div`
     theme?.fieldset?.border?.color || inube.fieldset.border.color};
   background-color: ${({ theme }) =>
     theme?.fieldset?.legend?.color || inube.fieldset.legend.color};
+  background-color: gray;
 `;
 
 export { StyledChildren };
