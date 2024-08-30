@@ -1,3 +1,15 @@
+# v0.19.0 (Fri Aug 30 2024)
+
+#### 🚀 Enhancement
+
+- Extend Component to Accept `legendType` and `legendSize` as Props [#28](https://github.com/selsa-inube/inubekit-fieldset/pull/28) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.18.0 (Fri Aug 30 2024)
 
 #### 🚀 Enhancement
