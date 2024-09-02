@@ -9,7 +9,7 @@ const StyledFieldset = styled.fieldset`
   border-style: solid;
   border-color: ${({ theme }) =>
     theme?.fieldset?.border?.color || inube.fieldset.border.color};
-  & legend {
+  & > legend {
     padding-left: 4px;
   }
 
