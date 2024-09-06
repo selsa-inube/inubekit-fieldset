@@ -1,3 +1,15 @@
+# v0.24.1 (Fri Sep 06 2024)
+
+#### ⚠️ Pushed to `main`
+
+- Update styles.js ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.24.0 (Mon Sep 02 2024)
 
 #### 🚀 Enhancement
