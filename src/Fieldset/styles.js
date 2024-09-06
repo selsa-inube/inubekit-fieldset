@@ -15,7 +15,6 @@ const StyledFieldset = styled.fieldset`
 
   > *:not(:first-child) {
     margin-top: -8px;
-    min-height: 150px;
   }
 `;
 
