@@ -1,3 +1,4 @@
+import { Stack } from "@inubekit/stack";
 import { Fieldset, IFieldset } from "..";
 import { props, parameters } from "../props";
 import { StyledChildren } from "./styles";
@@ -13,9 +14,11 @@ const story = {
 };
 
 const Default = (args: IFieldset) => (
-  <Fieldset {...args}>
-    <StyledChildren />
-  </Fieldset>
+  <Stack>
+    <Fieldset {...args}>
+      <StyledChildren />
+    </Fieldset>
+  </Stack>
 );
 
 Default.args = {
