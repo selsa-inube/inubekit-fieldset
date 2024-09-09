@@ -22,7 +22,7 @@ Default.args = {
   legend: "User Information",
   spacing: "wide",
   width: "100%",
-  height: "100",
+  height: "100%",
 };
 
 export { Default };

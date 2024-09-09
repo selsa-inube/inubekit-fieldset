@@ -9,7 +9,10 @@ const StyledFieldset = styled.fieldset`
   border-style: solid;
   border-color: ${({ theme }) =>
     theme?.fieldset?.border?.color || inube.fieldset.border.color};
-
+  padding: ${({ $isMobile }) =>
+    $isMobile ? "8px 12px 16px" : "12px 20px 24px"};
+  height: ${({ $height }) => $height};
+  width: ${({ $width }) => $width};
   > *:not(:first-child) {
     margin-top: -8px;
   }

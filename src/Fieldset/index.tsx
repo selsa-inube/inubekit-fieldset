@@ -2,6 +2,7 @@ import { StyledFieldset } from "./styles";
 import { IFieldsetSpacing } from "./props";
 import { Stack } from "@inubekit/stack";
 import { IText, Text } from "@inubekit/text";
+import { useMediaQuery } from "@inubekit/hooks";
 
 interface IFieldset {
   legend: string;
@@ -24,21 +25,38 @@ function Fieldset(props: IFieldset) {
     height = "auto",
   } = props;
 
+  const isMobile = useMediaQuery("(max-width: 740px)");
+
   return (
-    <StyledFieldset $spacing={spacing}>
+    <StyledFieldset
+      $isMobile={isMobile}
+      $spacing={spacing}
+      $width={width}
+      $height={height}
+    >
       <legend>
-        <Text appearance="gray" type={type} size={size}>
-          {legend}
-        </Text>
+        <Stack padding={spacing === "wide" ? "24px 20px" : "16px 12px"}>
+          <Text type={type} size={size}>
+            {legend}
+          </Text>
+        </Stack>
       </legend>
-      <Stack
-        height={height}
-        width={width}
-        padding={spacing === "wide" ? "24px 20px" : "16px 12px"}
-      >
-        {children}
-      </Stack>
+      {children}
     </StyledFieldset>
+    // <StyledFieldset $spacing={spacing}>
+    //   <legend>
+    //     <Text appearance="gray" type={type} size={size}>
+    //       {legend}
+    //     </Text>
+    //   </legend>
+    //   <Stack
+    //     height={height}
+    //     width={width}
+    //     padding={spacing === "wide" ? "24px 20px" : "16px 12px"}
+    //   >
+    //     {children}
+    //   </Stack>
+    // </StyledFieldset>
   );
 }
 
