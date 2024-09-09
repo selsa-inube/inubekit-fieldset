@@ -36,27 +36,13 @@ function Fieldset(props: IFieldset) {
     >
       <legend>
         <Stack padding={spacing === "wide" ? "24px 20px" : "16px 12px"}>
-          <Text type={type} size={size}>
+          <Text appearance="gray" type={type} size={size}>
             {legend}
           </Text>
         </Stack>
       </legend>
       {children}
     </StyledFieldset>
-    // <StyledFieldset $spacing={spacing}>
-    //   <legend>
-    //     <Text appearance="gray" type={type} size={size}>
-    //       {legend}
-    //     </Text>
-    //   </legend>
-    //   <Stack
-    //     height={height}
-    //     width={width}
-    //     padding={spacing === "wide" ? "24px 20px" : "16px 12px"}
-    //   >
-    //     {children}
-    //   </Stack>
-    // </StyledFieldset>
   );
 }
 
