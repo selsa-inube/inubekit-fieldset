@@ -1,3 +1,15 @@
+# v0.24.6 (Mon Sep 09 2024)
+
+#### ⚠️ Pushed to `main`
+
+- fix: adjustment for story when the fieldset is used ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.24.5 (Mon Sep 09 2024)
 
 #### ⚠️ Pushed to `main`
