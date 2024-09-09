@@ -27,7 +27,7 @@ function Fieldset(props: IFieldset) {
   return (
     <StyledFieldset $spacing={spacing}>
       <legend>
-        <Text appearance="gray" type={type} size={size} margin="0 0 0 6px">
+        <Text appearance="gray" type={type} size={size} padding="0 0 0 6px">
           {legend}
         </Text>
       </legend>
