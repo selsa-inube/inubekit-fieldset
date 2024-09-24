@@ -1,6 +1,5 @@
 import styled from "styled-components";
-
-import { inube } from "@inubekit/foundations";
+import { tokens } from "./Tokens/tokens";
 
 const StyledFieldset = styled.fieldset`
   display: flex;
@@ -8,7 +7,7 @@ const StyledFieldset = styled.fieldset`
   border-width: 1px;
   border-style: solid;
   border-color: ${({ theme }) =>
-    theme?.fieldset?.border?.color || inube.fieldset.border.color};
+    theme?.fieldset?.border?.color || tokens.border.color};
   padding: ${({ $isMobile }) =>
     $isMobile ? "8px 12px 16px" : "12px 20px 24px"};
   height: ${({ $height }) => $height};

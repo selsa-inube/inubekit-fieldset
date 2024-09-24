@@ -1,6 +1,5 @@
 import styled from "styled-components";
-
-import { inube } from "@inubekit/foundations";
+import { tokens } from "../Tokens/tokens";
 
 const StyledChildren = styled.div`
   width: 100%;
@@ -9,9 +8,9 @@ const StyledChildren = styled.div`
   border-width: 0px;
   border-style: solid;
   border-color: ${({ theme }) =>
-    theme?.fieldset?.border?.color || inube.fieldset.border.color};
+    theme?.fieldset?.border?.color || tokens.border.color};
   background-color: ${({ theme }) =>
-    theme?.fieldset?.legend?.color || inube.fieldset.legend.color};
+    theme?.fieldset?.legend?.color || tokens.legend.color};
   background-color: gray;
 `;
 
