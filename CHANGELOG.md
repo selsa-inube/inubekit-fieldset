@@ -1,3 +1,15 @@
+# v0.25.0 (Tue Sep 24 2024)
+
+#### 🚀 Enhancement
+
+- Move fieldset tokens from foundations to component [#34](https://github.com/selsa-inube/inubekit-fieldset/pull/34) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.24.6 (Mon Sep 09 2024)
 
 #### ⚠️ Pushed to `main`
