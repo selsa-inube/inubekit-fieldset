@@ -1,3 +1,15 @@
+# v0.26.0 (Tue Oct 01 2024)
+
+#### 🚀 Enhancement
+
+- Auto-merge PR [#35](https://github.com/selsa-inube/inubekit-fieldset/pull/35) ([@cmarin001](https://github.com/cmarin001))
+
+#### Authors: 1
+
+- Cesar Marin Alfonso ([@cmarin001](https://github.com/cmarin001))
+
+---
+
 # v0.25.0 (Tue Sep 24 2024)
 
 #### 🚀 Enhancement
