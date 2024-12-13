@@ -1,3 +1,15 @@
+# v0.27.1 (Fri Dec 13 2024)
+
+#### 🐛 Bug Fix
+
+- Add TOKENS.md document [#37](https://github.com/selsa-inube/inubekit-fieldset/pull/37) ([@CristianRojas-47](https://github.com/CristianRojas-47))
+
+#### Authors: 1
+
+- Cristian Rojas ([@CristianRojas-47](https://github.com/CristianRojas-47))
+
+---
+
 # v0.27.0 (Thu Oct 10 2024)
 
 #### 🚀 Enhancement
